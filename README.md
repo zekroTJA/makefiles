@@ -6,7 +6,7 @@ Here, I collect some makefiles you can use for various languages and envoirement
 
 - **[go](go)**
   - [application](go/application)
-  - [pakcage](go/package)
+  - [package](go/package)
   
 # Contribution
 
