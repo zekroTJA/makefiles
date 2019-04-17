@@ -1,4 +1,5 @@
 # TEMPLATE MAKEFILE FOR GO APPLICATIONS
+# https://github.com/zekroTJA/makefiles
 # 
 # This Makefile is capable of:
 #  - defautl go commands like build, run,
