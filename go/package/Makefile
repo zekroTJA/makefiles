@@ -1,4 +1,5 @@
 # TEMPLATE MAKEFILE FOR GO PACKAGES
+# https://github.com/zekroTJA/makefiles
 # 
 # This Makefile is capable of:
 #  - run go tests
