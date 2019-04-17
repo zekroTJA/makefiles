@@ -1,11 +1,10 @@
-# TEMPLATE MAKEFILE FOR GO APPLICATIONS
+# TEMPLATE MAKEFILE FOR GO PACKAGES
 # 
 # This Makefile is capable of:
-#  - defautl go commands like build, run,
-#    test and golint
-#  - cross compiling (see make help)
-#  - automatic versioning using git tag
-#    and ldflags
+#  - run go tests
+#  - run example
+#  - go lint
+#  - cleanup
 #
 # Covered by MIT License
 #
