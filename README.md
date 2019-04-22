@@ -7,6 +7,9 @@ Here, I collect some makefiles you can use for various languages and envoirement
 - **[go](go)**
   - [application](go/application)
   - [package](go/package)
+- **[python](python)**
+  - [application](python/application)
+  <!-- - [package](python/package) -->
   
 # Contribution
 
