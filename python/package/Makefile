@@ -9,6 +9,7 @@ PDOC   = pdoc
 #### OTHER VARS ############################
 
 DOCS_LOCATION = $(CURDIR)/docs
+PACKAGE_NAME  = pytter
 
 ############################################
 
@@ -41,9 +42,9 @@ docs:
 		--html-dir $(DOCS_LOCATION) \
 		--overwrite \
 		--external-links \
-			pytter
-	mv $(DOCS_LOCATION)/pytter/* $(DOCS_LOCATION)/
-	rm -r $(DOCS_LOCATION)/pytter
+			$(PACKAGE_NAME)
+	mv $(DOCS_LOCATION)/$(PACKAGE_NAME)/* $(DOCS_LOCATION)/
+	rm -r $(DOCS_LOCATION)/$(PACKAGE_NAME)
 
 lint:
 	$(FLAKE8) $(CURDIR)
